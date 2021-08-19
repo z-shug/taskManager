@@ -1,0 +1,109 @@
+
+    
+.header {
+  text-align: center;
+  margin-bottom: -10px ;
+  font-family: 'Roboto Condensed', sans-serif;
+  color:darkslateblue ;
+}
+
+
+
+
+.form, header
+{
+  background-color: cornsilk;
+ 
+}
+
+.form-entry {
+  text-align: center;
+  display: blcok;
+  margin-left:  auto;
+  margin-right: auto;
+  
+}
+
+.input-group {
+    margin-bottom: 20px;
+    width: 50%;
+     margin-top: 20px;
+}
+
+.input-group-text {
+  font-family: 'Space Mono', monospace;
+  color:darkslateblue;
+  background-color: coral;
+  width:8rem;
+  text-align: center;
+  
+}
+
+.input-group-text,.form-input {
+  border-color:hsl(184, 70%, 52%);
+  border-width: .1rem;
+}
+
+
+
+
+
+.status-button {
+  align-items: center;
+  display: inline;
+}
+.classList {
+  display: inline;
+  float: left;
+  justify-content:space-around;
+  width: 21rem;
+  margin:.5rem;
+  align-items: center;
+  background-color: cornsilk;
+}
+
+
+
+#task-list {
+  display: flex;
+}
+
+#submit-button {
+  margin-bottom: 1rem;
+  background-color: coral;
+  color:darkslateblue;
+  border-color:hsl(184, 70%, 52%);
+}
+
+.status, 
+.status-display {
+  display: inline-block;
+  
+  
+}
+.status-display {
+  
+  border-style: solid ;
+  border-radius: 5px;
+  border-color:hsl(184, 70%, 52%);
+  background-color: coral;
+  color:darkslateblue;
+}
+
+.start{
+  border-style: solid ;
+  border-radius: 5px;
+  border-color:blue;
+  background-color: blue;
+  color:white;
+}
+
+.done{
+  border-style: solid ;
+  border-radius: 5px;
+  border-color:green;
+  background-color: green;
+  color:white;
+}
+
+
